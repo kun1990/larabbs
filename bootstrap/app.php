@@ -51,5 +51,7 @@ $app->singleton(
 | from the actual running of the application and sending responses.
 |
 */
+//辅助函数
+require_once __DIR__.'/helpers.php';
 
 return $app;
